@@ -1,10 +1,13 @@
 layout {
     floating_panes {
-        pane command="~/bin/stam" name="foto ffa" 
+        pane command="~/bin/stam" name="foto ffa" {
+            width "20%"
+            y "10%"
+        }
         pane command="~/bin/stam" name="simba" {
             x 1
             y "10%"
-            width 20
+            width "20%"
             height "10%"
         }
     }
@@ -17,3 +20,4 @@ layout {
         }
     }
 }
+
