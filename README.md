@@ -14,5 +14,5 @@ uses random [asciinema](https://asciinema.org) casts and displays them with [zel
 ## exit key combination
 ctrl+g  ctrl+t  x
 
-# inspiration
+## inspiration
 [Hollywood](https://a.hollywood.computer/)
