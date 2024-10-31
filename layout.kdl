@@ -1,0 +1,19 @@
+layout {
+    floating_panes {
+        pane command="~/bin/stam" name="foto ffa" 
+        pane command="~/bin/stam" name="simba" {
+            x 1
+            y "10%"
+            width 20
+            height "10%"
+        }
+    }
+    pane split_direction="vertical" { // first logical container
+        pane command="~/bin/stam" name="salamtak"
+        pane split_direction="horizontal" { // second logical container
+            pane command="~/bin/stam" name="sababa"
+            pane command="~/bin/stam" name="salamtak2"
+            pane command="~/bin/stam" name="soho"
+        }
+    }
+}
